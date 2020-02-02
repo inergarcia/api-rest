@@ -16,6 +16,6 @@ def getTeam(name):
 
 
 if __name__ == "__main__":
-    app.run(port = 8080)
+    app.run(threaded=True, port=5000)
  
 
